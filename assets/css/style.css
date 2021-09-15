@@ -106,10 +106,7 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header {
-  background-color: #414b54;
-  max-width: 1360px;
-}
+header {background-color: #414b54;}
 
 header .wrapper{
   display: flex;
@@ -164,10 +161,123 @@ nav ul li ul{display: none;}
   font-weight: 600;
   padding: 20px 40px;
 }
-.banner div a{
+.banner div a,
+.banner div h2{
   color: #ffffff;
 }
 
+h2{
+  font-size: 35px;
+  color: #404b69;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px;
+}
+.client-suc{
+  text-align: center;
+  padding: 70px 0 50px 0;
+}
+
+.client-suc ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.client-suc .wrapper{
+  width: 95%;
+}
+.client-suc ul li{
+  margin: 30px;
+  margin-bottom: 0;
+}
+.client-suc ul li img{
+  border-radius: 50%;
+  width: 70px;
+}
+.client-suc figcaption{
+  color: #404b69;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 45px;
+}
+.client-suc p{
+  color: #9e9d9f;
+  margin: 5px;
+}
+.client-suc ul > li a[title="Read-More"]{
+  text-transform: capitalize;
+  color: #414b54;
+  font-size: 18;
+  font-weight: 600;
+  border: 1px solid #404b69; 
+  padding: 12px;
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.advice{
+  background-color: #e9edf5;
+  text-align: center;
+  padding: 30px 0;
+}
+.advice h2 {
+  padding: 20px 0 10px 0;
+}
+.advice p{
+  font-size: 22px;
+  color: #404b69;
+}
+.advice .wrapper{
+  width: 90%;
+}
+.active > ul{
+  display: flex;
+}
+.card{
+ 
+}
+
+
+
+
+.solutions{
+  display: flex;
+}
+.solutions h2{
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.solutions ul{
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+}
+.d1,.d2{
+  padding: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  width: 50%;
+}
+.d1{
+  background-color: #dc6226;
+}
+.d2{
+  background-color: #424c51;
+}
+.solutions p{
+  padding-top: 10px;
+}
+.d1 a, .d2 a{
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 18;
+  font-weight: 600;
+  border: 1px solid #ffffff; 
+  padding: 12px;
+  margin: 20px;
+  margin-bottom: 0;
+}
 
 
 
