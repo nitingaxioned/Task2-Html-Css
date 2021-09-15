@@ -279,9 +279,77 @@ h2{
   margin-bottom: 0;
 }
 
+.clients .wrapper{
+  width: 90%;
+}
+.loco-contener{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.logo-nav{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: -110px;
+}
+.logo-nav a{
+  color: #111111;
+  font-size: 35px;
+}
+.contact-form{
+  background-image: url(https://via.placeholder.com/1260x380);
+  width: 100%;
+}
+.contact-form .wrapper{
+  width: 90%;
+}
+.contact-form h2{
+  color: #ffffff;
+  text-align: center;
+  padding: 70px 0 40px 0;
+}
+.form-inputs{
+  padding: 5px;
+}
+.form-inputs input, .form-input-msg textarea{
+  background: #111111;
+  opacity: 0.7;
+  border: 1px solid #444444;
+  padding: 7px;
+  width: 25vw;
+}
+.form-input-msg textarea{
+  position: absolute;
+  float: right;
+  width: 75%;
+  right: 5%;
+  height: 100px;
+  
+}
+.form-input-msg{
+  position:relative;
+  top: -120px ;
+  right: -200px;
+}
+.form-contener{
+  width: 90%;
+  padding-bottom: 50px;
+}
 
-
-
+.form-contener a{
+  text-transform: capitalize;
+  background-color: #dc6226;
+  font-size: 32;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 15px 26px;
+  margin: 20px;
+  margin-bottom: 20px;
+  margin-left: 84vw;
+  text-transform: uppercase;
+}
 /*=================================
   main styling ends here
 =================================*/
