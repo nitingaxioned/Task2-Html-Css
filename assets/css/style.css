@@ -106,7 +106,10 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header {background-color: #414b54;}
+header {
+  background-color: #414b54;
+  max-width: 1360px;
+}
 
 header .wrapper{
   display: flex;
@@ -142,8 +145,28 @@ nav ul li ul{display: none;}
   main styling starts here
 =================================*/
 
-
-
+.banner{
+  background-image: url("https://via.placeholder.com/1270x460");
+  width: 100%;
+  padding-top: 400px;
+}
+.banner div{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  font-size: 35px;
+  background-color: #dc6226;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 20px 40px;
+}
+.banner div a{
+  color: #ffffff;
+}
 
 
 
