@@ -106,12 +106,34 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header {background-color: #414b54;}
 
+header .wrapper{
+  display: flex;
+  width: 94%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  margin: 0 1.5vw;
+  transform: translateX(-1vw);
+}
+nav ul li a {
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav ul li a:hover { color: #dc6226;}
+nav ul li ul{display: none;} 
 
-
-
-
-
+.Social-icon li{
+  padding: 0 0.5vw;
+}
+.Social-icon li a{
+  color:#808c94;
+  font-size: 28px;
+}
 /*=================================
   Header styling ends here
 =================================*/  
