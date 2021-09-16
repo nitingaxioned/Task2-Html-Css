@@ -106,12 +106,34 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header {background-color: #414b54;}
 
+header .wrapper{
+  display: flex;
+  width: 94%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  margin: 0 1.5vw;
+  transform: translateX(-1vw);
+}
+nav ul li a {
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav ul li a:hover { color: #dc6226;}
+nav ul li ul{display: none;} 
 
-
-
-
-
+.Social-icon li{
+  padding: 0 0.5vw;
+}
+.Social-icon li a{
+  color:#808c94;
+  font-size: 28px;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -120,13 +142,270 @@ li {
   main styling starts here
 =================================*/
 
+.banner{
+  background-image: url("https://via.placeholder.com/1270x460");
+  width: 100%;
+  padding-top: 400px;
+}
+.banner div{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  font-size: 35px;
+  background-color: #dc6226;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 20px 40px;
+}
+.banner div a,
+.banner div h2{
+  color: #ffffff;
+}
 
+h2{
+  font-size: 35px;
+  color: #404b69;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px;
+}
+.client-suc{
+  text-align: center;
+  padding: 70px 0 50px 0;
+}
 
+.client-suc ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.client-suc .wrapper{
+  width: 95%;
+}
+.client-suc ul li{
+  margin: 30px;
+  margin-bottom: 0;
+}
+.client-suc ul li img{
+  border-radius: 50%;
+  width: 70px;
+}
+.client-suc figcaption{
+  color: #404b69;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 45px;
+}
+.client-suc p{
+  color: #9e9d9f;
+  margin: 5px;
+}
+.client-suc ul > li a[title="Read-More"]{
+  text-transform: capitalize;
+  color: #414b54;
+  font-size: 18;
+  font-weight: 600;
+  border: 1px solid #404b69; 
+  padding: 12px;
+  margin: 20px;
+  margin-bottom: 0;
+}
 
+.advice{
+  background-color: #e9edf5;
+  text-align: center;
+  padding: 30px 0;
+}
+.advice h2 {
+  padding: 20px 0 10px 0;
+}
+.advice p{
+  font-size: 22px;
+  color: #404b69;
+}
+.advice .wrapper{
+  width: 95%;
+}
+.active > ul{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  margin: 50px 12px;
+  width: 370px;
+  background-color: #ffffff;
+  padding: 12px 12px 35px 12px;
+}
 
+.card figcaption{
+  text-transform: capitalize;
+  color: #dc6226;
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 45px;
+}
+.card p{
+  font-size: 15px;
+  color: #9e9d9f;
+  padding: 17px 40px;
+}
 
+.card a span{
+  color: #404b69;
+}
 
+.solutions{
+  display: flex;
+}
+.solutions h2{
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.solutions ul{
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+}
+.d1,.d2{
+  padding: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  width: 50%;
+}
+.d1{
+  background-color: #dc6226;
+}
+.d2{
+  background-color: #424c51;
+}
+.solutions p{
+  padding-top: 10px;
+}
+.d1 a, .d2 a{
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 18;
+  font-weight: 600;
+  border: 1px solid #ffffff; 
+  padding: 12px;
+  margin: 20px;
+  margin-bottom: 0;
+}
 
+.clients .wrapper{
+  width: 90%;
+}
+.loco-contener{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.logo-nav{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: -110px;
+}
+.logo-nav a{
+  color: #111111;
+  font-size: 35px;
+}
+.contact-form{
+  background-image: url(https://via.placeholder.com/1260x380);
+  width: 100%;
+}
+.contact-form .wrapper{
+  width: 90%;
+}
+.contact-form h2{
+  color: #ffffff;
+  text-align: center;
+  padding: 70px 0 40px 0;
+}
+.form-inputs{
+  padding: 5px;
+}
+.form-inputs input, .form-input-msg textarea{
+  background: #111111;
+  opacity: 0.7;
+  border: 1px solid #444444;
+  padding: 7px;
+  width: 25vw;
+}
+.form-input-msg textarea{
+  position: absolute;
+  float: right;
+  width: 75%;
+  right: 5%;
+  height: 100px;
+  
+}
+.form-input-msg{
+  position:relative;
+  top: -120px ;
+  right: -200px;
+}
+.form-contener{
+  width: 90%;
+  padding-bottom: 50px;
+}
+
+.form-contener a{
+  text-transform: capitalize;
+  background-color: #dc6226;
+  font-size: 32;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 15px 26px;
+  margin: 20px;
+  margin-bottom: 20px;
+  margin-left: 84vw;
+  text-transform: uppercase;
+}
+
+.contact-details{
+  background-color: #515c61;
+}
+.contact-details .wrapper{
+  width: 95vw;
+}
+.contact-details ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 50px;
+}
+.contact-details ul li{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-details ul li p{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20pxpx;
+  padding: 2px 2vw;
+}
+.contact-details ul li span{
+  padding: 2vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 22px;
+}
+.contact-details figure{
+  width: 70px;
+  border-radius: 50%;
+  border: 8px solid #9e9d9f;
+}
+.contact-details figure img{
+  border-radius: 50%;
+}
 /*=================================
   main styling ends here
 =================================*/
@@ -134,10 +413,33 @@ li {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer{
+  background-color: #3f4a51;
+}
+footer .wrapper{
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 200px ;
+}
 
-
-
-
+.footer-txt{
+  padding: 30px 0;
+  color: #ffffff;
+}
+.footer-txt p span{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 600;
+}
+.footer-txt ul li a{
+  color: #dc6226;
+  font-size: 34px;
+  margin: 5px;
+}
+.footer-txt ul li{
+  margin-top: 10px;
+}
 
 
 
