@@ -229,17 +229,35 @@ h2{
   color: #404b69;
 }
 .advice .wrapper{
-  width: 90%;
+  width: 95%;
 }
 .active > ul{
   display: flex;
+  justify-content: space-between;
 }
 .card{
- 
+  margin: 50px 12px;
+  width: 370px;
+  background-color: #ffffff;
+  padding: 12px 12px 35px 12px;
 }
 
+.card figcaption{
+  text-transform: capitalize;
+  color: #dc6226;
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 45px;
+}
+.card p{
+  font-size: 15px;
+  color: #9e9d9f;
+  padding: 17px 40px;
+}
 
-
+.card a span{
+  color: #404b69;
+}
 
 .solutions{
   display: flex;
@@ -349,6 +367,44 @@ h2{
   margin-bottom: 20px;
   margin-left: 84vw;
   text-transform: uppercase;
+}
+
+.contact-details{
+  background-color: #515c61;
+}
+.contact-details .wrapper{
+  width: 95vw;
+}
+.contact-details ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.contact-details ul li{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-details ul li p{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20pxpx;
+  padding: 2px 2vw;
+}
+.contact-details ul li span{
+  padding: 2vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 22px;
+}
+.contact-details figure{
+  width: 70px;
+  border-radius: 50%;
+  border: 8px solid #9e9d9f;
+}
+.contact-details figure img{
+  border-radius: 50%;
 }
 /*=================================
   main styling ends here
