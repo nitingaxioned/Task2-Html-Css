@@ -378,7 +378,7 @@ h2{
 .contact-details ul{
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 100px 50px;
 }
 .contact-details ul li{
   display: flex;
@@ -413,10 +413,33 @@ h2{
 /*=================================
   footer styling starts here
 =================================*/ 
+footer{
+  background-color: #3f4a51;
+}
+footer .wrapper{
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 200px ;
+}
 
-
-
-
+.footer-txt{
+  padding: 30px 0;
+  color: #ffffff;
+}
+.footer-txt p span{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 600;
+}
+.footer-txt ul li a{
+  color: #dc6226;
+  font-size: 34px;
+  margin: 5px;
+}
+.footer-txt ul li{
+  margin-top: 10px;
+}
 
 
 
